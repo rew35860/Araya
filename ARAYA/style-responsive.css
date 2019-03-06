@@ -1,0 +1,435 @@
+/*phone screen*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+
+  header img {
+    width: 90px;
+    height: 90px;
+    padding-left: 30px;
+  }
+
+  nav {
+    height: 100%; 
+    width: 0px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #333333; 
+    overflow-x: hidden; 
+    transition: 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+  }
+
+  nav ul li a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: 0.3s
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    font-size: 33px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  span {
+    color: #6E7071;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-right: 50px;
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+  }
+
+  .index-intro {
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+
+  .index-intro h1 {
+     font-size: 23px;
+  }
+
+  .index-intro p {
+     font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 12px; 
+  }
+
+  .slider{
+    height: 200px;
+    /*border: solid;*/
+  }
+
+  .slider figure img{
+    height: 200px;
+  }
+
+  .contact-info {
+    padding: 30px 0px;
+  }
+
+  .contact-details {
+    float: none;
+    padding-left: 20px;
+  }
+  
+  .map {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .contact-info p {
+   font-size: 15px;
+  }
+
+  .img-with-text {
+    height: 130px;
+    width: 400px;
+    /*border: solid;*/
+    margin: 0px 30px;
+  }
+
+  .services-info{
+    padding-bottom: 0px;
+  }
+
+  .img-single{
+    width: 130px;
+    height: 150px;
+    margin: 10px 10px;
+  }
+
+  .img-single img:hover{
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+  }
+}
+
+/*@media only screen and (max-width: 480px) and (orientation: landscape) {
+  header img {
+    width: 90px;
+    height: 90px;
+    padding-left: 30px;
+  }
+
+  nav {
+    height: 100%; 
+    width: 0px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #333333; 
+    overflow-x: hidden; 
+    transition: 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+  }
+
+  nav ul li a {
+    padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: 0.3s
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    font-size: 33px;
+    margin-left: 50px;
+    display: block;
+  }
+
+  span {
+    color: #6E7071;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-right: 50px;
+    display: block;
+  }
+
+  .wrapper {
+    width: 100%;
+  } 
+
+  .slider{
+    height: 160px;*/
+    /*border: solid;
+  }
+
+  .slider figure img{
+    height: 160px;
+  }
+
+  .index-intro {
+    padding-top: 35px;
+    padding-bottom: 0px;
+  }
+
+  .index-intro h1 {
+     font-size: 23px;
+  }
+
+  .index-intro p {
+     font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 12px; 
+  }
+
+  .contact-info {
+    padding: 30px 0px;
+  }
+
+  .contact-details {
+    float: none;
+    padding-left: 20px;
+  }
+  
+  .map {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .contact-info p {
+   font-size: 15px;
+  }
+
+  .img-with-text {
+    height: 130px;
+    width: 400px;
+    /*border: solid;
+    margin: 0px 30px;
+  }
+
+  .services-info{
+    padding-bottom: 0px;
+  }
+
+  .img-with-text h1{
+    font-size: 17px;
+  }
+
+  .img-with-text p{
+    font-size: 14px;
+  }
+
+  .img-single{
+    width: 130px;
+    height: 150px;
+    margin: 10px 10px;
+  }
+
+  .img-single img:hover{
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+  }
+
+}*/
+
+/*laptop screen*/
+/*@media only screen and (min-width: 480px) and (max-width: 1024px) and (orientation: portrait) {
+
+  header img {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+  }
+
+  nav {
+    float: right;
+    padding-right: 30px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .slider{
+    height: 170px;
+    border: solid;
+  }
+
+  .slider figure img{
+    height: 170px;
+  }
+
+  .index-intro {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border: solid;
+  }
+
+  .index-intro h1 {
+     font-size: 23px;
+  }
+
+  .index-intro p {
+     font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 12px; 
+  }
+
+  .contact-info {
+    padding: 30px 0px;
+  }
+
+  .contact-details {
+    float: none;
+    padding-left: 60px;
+  }
+  
+  .map {
+    padding-left: 60px;
+    padding-top: 20px;
+  }
+
+  .contact-info p {
+   font-size: 15px;
+  }
+
+  .services-info {
+    width: 100%;
+    padding-bottom: 0px;
+    border: solid;
+  }
+
+  .img-with-text {
+    height: 150px;
+    width: 400px;
+    margin: 0px 50px;
+    border: solid;
+  }
+  .img-single{
+    width: 165px;
+    height: 180px;
+    margin: 10px 10px;
+  }
+
+  .img-single img:hover{
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) and (orientation: landscape) {
+
+  header img {
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+  }
+
+  nav {
+    float: right;
+    padding-right: 30px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .slider{
+    height: 220px;
+    border: solid;
+  }
+
+  .slider figure img{
+    height: 220px;
+  }
+
+  .index-intro {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .index-intro h1 {
+     font-size: 23px;
+  }
+
+  .index-intro p {
+     font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 12px; 
+  }
+
+  .contact-info {
+    padding: 30px 0px;
+  }
+
+  .contact-details {
+    float: left;
+    padding-right: 100px;
+    padding-left: 30px;
+  }
+
+  .contact-info p {
+   font-size: 15px;
+  }
+
+  .img-with-text {
+    height: 130px;
+    width: 900px;
+    border: solid;
+    margin: 0px 30px;
+  }
+  .img-single{
+    width: 290px;
+    height: 200px;
+  }
+  .img-single img:hover{
+    width: 110%;
+    height: 110%;
+    left: -5%;
+  }
+}*/
